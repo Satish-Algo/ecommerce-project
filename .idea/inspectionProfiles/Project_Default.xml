@@ -1,0 +1,32 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="e-commers" />
+          <option value="e-commers" />
+          <option value="e-commers" />
+          <option value="e-commers" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="org.springframework.boot:spring-boot:3.3.5" />
+          <option value="com.fasterxml.jackson.core:jackson-core:2.18.3" />
+          <option value="org.springframework:spring-beans:6.2.6" />
+          <option value="org.springframework.boot:spring-boot-autoconfigure:3.5.6" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Not exploitable" />
+          <option value="Fixed in branch" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
