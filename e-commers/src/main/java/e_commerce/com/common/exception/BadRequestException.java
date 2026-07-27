@@ -1,4 +1,4 @@
-package e_commerce.com.common.excption;
+package e_commerce.com.common.exception;
 
 public class BadRequestException extends RuntimeException {
 
