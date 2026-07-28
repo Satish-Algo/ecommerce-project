@@ -22,4 +22,8 @@ public class ProductResponse {
     private String imageUrl;
 
     private Boolean active;
+
+    private Long categoryId;
+
+    private String categoryName;
 }
