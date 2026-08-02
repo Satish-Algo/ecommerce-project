@@ -1,24 +1,27 @@
-package e_commerce.com.wishlist.dto;
+package e_commerce.com.order.dto;
 
 import lombok.*;
 
 import java.math.BigDecimal;
+
 
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class WishlistResponse {
+public class OrderItemResponse {
 
-    private Long wishlistId;
 
     private Long productId;
 
     private String productName;
 
+    private Integer quantity;
+
     private BigDecimal price;
 
-    private String imageUrl;
+    private BigDecimal subtotal;
+
 
 }
